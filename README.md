@@ -155,9 +155,9 @@ To set up the system locally or on a server:
 ### Monitoring:
 - Admins can check the **Dashboard** for real-time updates on system activity.
 - The dashboard will provide information on:
-  - Unauthorized access attempts.
   - Failed login attempts.
   - Overdue loan repayments.
+  - Reports on loan applications
  ## Security Implementation
 
 ### Password Hashing with MD5
@@ -193,7 +193,7 @@ $hashed_password = md5($plain_password);
 - **Test overdue loans**:  
   - Manually set a loan's due date to a date in the past using a database management tool (e.g., phpMyAdmin).
   - Verify that the overdue loan is displayed on the **Admin Dashboard**, indicating it is past due.
-  - Ensure that both the client and admin are notified about the overdue loan, and the system tracks the overdue status properly.
+  - Ensure that admin is notified about the overdue loan, and the system tracks the overdue status properly.
 ## Contributing Guidelines
 
 We welcome contributions! If you'd like to contribute to this project, please follow the steps below:
@@ -229,8 +229,8 @@ These are some of the exciting improvements we plan to implement to make the loa
 ## Contact Information
 
 - **Email**: njerisharon611@gmail.com
-- **GitHub**: File issues at [github.com/8Sharon/data-privacy-security-loan-system/issues](https://github.com/8Sharon/data-privacy-security-loan-system/issues)
-- **Lead Developer**: Sharon Kmau (njerisharon611@gmail.com)
+- **GitHub**: File issues at [github.com/8Sharon/Data-Privacy-and-Security-Loan-System/issues](https://github.com/8Sharon/Data-Privacy-and-Security-Loan-System/issues)
+- **Lead Developer**: Sharon Kamau (njerisharon611@gmail.com)
 
 
 
