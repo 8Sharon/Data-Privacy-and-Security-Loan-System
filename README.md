@@ -49,7 +49,6 @@ The system follows a client-server architecture:
 - **Frontend**: HTML,CSS  for user interfaces, with  JavaScript for interactivity.
 - **Backend**: PHP handles server-side logic, authentication, and database interactions.
 - **Database**: MySQL stores user credentials, loan details, and monitoring logs.
-- **Monitoring Layer**: Real-time scripts check for security breaches and repayment issues.
 
 ---
 
