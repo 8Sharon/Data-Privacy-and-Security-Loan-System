@@ -1,0 +1,261 @@
+body {
+  font-family: Arial, sans-serif;
+  background: repeating-linear-gradient(45deg, rgba(30, 30, 30, 1), rgba(0, 0, 0, 1), rgba(30, 30, 30, 1), rgba(0, 0, 0, 1));
+  margin: 0;  /* Remove any default margin from the body */
+  padding-top: 80px; /* Add space for the navbar at the top */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #004d99;
+  color: white;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+}
+
+.welcome-message h1 {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #f9f9f9;
+}
+
+.notification-icon {
+  position: absolute;
+  right: 450px; /* Ensure it is positioned inside the navbar */
+}
+
+.red-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: none; /* Initially hidden */
+}
+
+.alert-dropdown {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: black;
+  padding: 10px;
+  width: 450px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification-icon:hover .alert-dropdown {
+  display: block;
+}
+
+#notification-dot {
+  display: none; /* Show only if there's an alert */
+}
+/* Container to hold sidebar and content */
+/* Sidebar */
+.sidebar {
+  background-color: orange;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 20px;
+  color: black;
+  position: fixed;
+  top: 100px; /* Start below the navbar */
+  left: 0;
+  margin-top: 0;
+}
+
+/* Styling for each item inside the sidebar */
+.sidebar-item {
+  font-size: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+/* Highlight the sidebar item on hover */
+.sidebar-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+  border-radius: 5px;
+}
+.container {
+  display: flex;
+  margin-top: 100px;  /* Make space below the navbar */
+  width: 1000px;
+}
+
+/* Content Section */
+.content-section {
+  padding: 20px;
+  color: white;
+  z-index: 10; /* Ensure it’s above the body background */
+}
+
+
+.chart-container {
+  width: 1000px;
+  margin-top: 20px;
+  height: 250px;
+  background-color: navy;
+}
+
+#loan-details {
+  display: none;
+  margin-top: 20px;
+}
+
+#loan-details-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#loan-details-table, th, td {
+  border: 1px solid #ddd;
+}
+
+#loan-details-table th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+.btn-close {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-close:hover {
+  background-color: #ff1111;
+}
+
+/* Style for the heatmap table */
+.heatmap-table {
+  width: 800px;
+  height: 230px;
+  border-collapse: collapse;
+  background: navy; 
+  color: white; 
+  box-shadow: 0 0 30px rgb(255, 128, 0); 
+  position: relative; 
+  z-index: 2; 
+}
+
+/* Outer container */
+.outer {
+  position: relative; 
+  padding: 10px; 
+  border-radius: 20px; 
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); 
+  z-index: 1; 
+}
+
+
+.outer::before {
+  content: ""; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right,#00FF00, #00FFFF, #ff00e0, #ff0000, #0000ff, #4CAF50, #00FF00);
+  animation: rotate 1.5s linear infinite;
+  border-radius: 20px; 
+  z-index: -1; 
+}
+
+/* Animation for hue-rotate */
+@keyframes rotate {
+  0% {
+      filter: hue-rotate(0deg);
+  }
+  100% {
+      filter: hue-rotate(360deg);
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 640px) {
+  .outer {
+      margin: 50px 0; 
+  }
+
+  .heatmap-table {
+      width: 100%; 
+  }
+}
+
+
+.bell-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-icon {
+  position: absolute;
+  right: 150px;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px 0;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}

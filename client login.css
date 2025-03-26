@@ -1,0 +1,165 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.9) 25%, rgba(240, 240, 240, 0.9) 25%, rgba(240, 240, 240, 0.9) 50%, rgba(255, 255, 255, 0.9) 50%, rgba(255, 255, 255, 0.9) 75%, rgba(240, 240, 240, 0.9) 75%, rgba(240, 240, 240, 0.9));
+  background-size: 40px 40px;
+}
+
+.navbar {
+  background-color: #009dff; 
+  padding: 3px 5px;
+  display: flex;
+  color: white;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; }
+
+.navbar .logo {
+  font-size: 14px;
+  
+}
+
+.navbar .slogan {
+  font-size: 32px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: italic;
+ font-weight: bold;
+ color: darkorange;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-top: 190px; /* Space below the fixed navbar */
+}
+
+.register-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-top: 190px; /* Space below the fixed navbar */
+}
+
+.forgot-password-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin-top: 190px; /* Space below the fixed navbar */
+} 
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  .required {
+    color: red; /
+  }
+  
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  
+  input:focus {
+    border-color: #1A73E8;
+    outline: none;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 14px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn:hover {
+    background-color:rgba(255, 204, 0, 0.961);
+  }
+  
+  
+.remember-forgot-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .remember-me {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 13;
+  }
+  
+  .remember-me input {
+    margin-right: 0px; 
+  }
+  
+  .forgot-password {
+    font-size: 13px; 
+    margin-right: 0;
+  }
+  
+  .forgot-password a {
+    color: rgb(0, 145, 255);
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    color: #1A73E8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
