@@ -168,7 +168,6 @@ Passwords are hashed using the **MD5** algorithm before storage to ensure they a
 #### Process:
 When a user registers or logs in, their plain-text password is passed through the MD5 hashing function:
 
-```php
 $hashed_password = md5($plain_password);
 ## Testing the System
 
@@ -204,7 +203,7 @@ Fork the repository to your own GitHub account by clicking the **Fork** button a
 
 ### 2. Create a Branch
 After forking the repository, create a new branch for your feature or bug fix:
-```bash
+``bash
 git checkout -b feature/your-feature
 ## Future Improvements
 
