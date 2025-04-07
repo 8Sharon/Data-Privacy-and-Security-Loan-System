@@ -2,7 +2,7 @@
 The **Data Privacy and Security Loan System** is a web-based application designed to provide a secure and efficient platform for managing loans. With a strong focus on data privacy, real-time monitoring of unauthorized access, and tracking overdue repayments, this system ensures that financial institutions can operate with confidence while protecting sensitive user information. It offers distinct workflows for clients and administrators, making it a versatile tool for loan management.
 
 ---
-<img src="https://garudax.com/wp-content/uploads/2024/08/iStock-1402450534_sme-e1723393287864.jpg.webp" alt="Loan System Overview" height="200">
+<img src="https://garudax.com/wp-content/uploads/2024/08/iStock-1402450534_sme-e1723393287864.jpg.webp" alt="Loan System Overview" height="500" width="500">
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
