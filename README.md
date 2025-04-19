@@ -111,14 +111,28 @@ Real-time monitoring is the cornerstone of this system, ensuring proactive manag
 - 
 ---
 
-## 💻Technology Stack
+## 💻 Technology Stack
 
-- **Frontend**: HTML, CSS, JavaScript .
-- **Backend**: PHP 7.4+ for server-side processing.
-- **Database**: MySQL 5.7+ for data storage.
-- **Hashing**: MD5 for password security.
-- **Server**: Apache  with PHP support.
-- **Tools**: Git for version control, Composer for PHP dependencies.
+- **Frontend**: 
+  - ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+  - ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  - ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+- **Backend**: 
+  - ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+- **Database**: 
+  - ![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+
+- **Hashing**: 
+  - ![MD5](https://img.shields.io/badge/MD5-000000?style=for-the-badge&logo=md5&logoColor=white)
+
+- **Server**: 
+  - ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
+
+- **Tools**: 
+  - ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+  - ![Composer](https://img.shields.io/badge/Composer-883399?style=for-the-badge&logo=composer&logoColor=white)
 
 ---
 ## Installation Guide
